@@ -10,7 +10,7 @@ def LED_validate(self):
         self.lightConfirm_pushButton.setEnabled(True)
 
 def desync(self):
-    error_img = PyQt5.QtGui.QImage("../_image/Error.png")
+    error_img = PyQt5.QtGui.QImage("../_image/error.png")
     self.Image_Frame.setPixmap(QtGui.QPixmap(error_img))
     self.Control_Tab.setEnabled(False)
     self.Misc_Frame.setEnabled(False)
